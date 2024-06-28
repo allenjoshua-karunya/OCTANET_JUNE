@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restored Vintage Cars</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Retro Rides</h1>
+            <ul>
+                <li><a href="#featured-car">Featured Car</a></li>
+                <li><a href="#cars">Our Cars</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="featured-car">
+            <h2>Featured Car</h2>
+            <div class="car">
+                <img src="mustang.jpg" alt="Featured Car" id="car-image">
+                <div class="car-details">
+                    <h3 id="car-title">1957 Chevrolet Bel Air</h3>
+                    <p id="car-price">Price: $75,000</p>
+                    <button id="buy-now">Buy Now</button>
+                </div>
+            </div>
+        </section>
+        
+        <section id="cars">
+            <h2>Our Cars</h2>
+            <div class="car-gallery">
+                <div class="car-item">
+                    <div class="img-container">
+                        <img src="car1.jpg" alt="Car 1">
+                    </div>
+                    <h3>1965 Ford Mustang</h3>
+                    <p>Price: $60,000</p>
+                </div>
+                <div class="car-item">
+                    <div class="img-container">
+                        <img src="car2.jpg" alt="Car 2">
+                    </div>
+                    <h3>1969 Chevrolet Camaro</h3>
+                    <p>Price: $70,000</p>
+                </div>
+                <div class="car-item">
+                    <div class="img-container">
+                        <img src="car3.jpg" alt="Car 3">
+                    </div>
+                    <h3>1970 Dodge Challenger</h3>
+                    <p>Price: $80,000</p>
+                </div>
+                <div class="car-item">
+                    <div class="img-container">
+                        <img src="car4.jpg" alt="Car 4">
+                    </div>
+                    <h3>1955 Ford Thunderbird</h3>
+                    <p>Price: $65,000</p>
+                </div>
+                <div class="car-item">
+                    <div class="img-container">
+                        <img src="car5.jpg" alt="Car 5">
+                    </div>
+                    <h3>1967 Chevrolet Corvette</h3>
+                    <p>Price: $90,000</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Our journey began over two decades ago with a passion for classic cars and a commitment to preserving automotive history. Our Restored Vintage Cars has grown from a small garage to a renowned restoration workshop.</p>
+            <p>Our love for vintage automobiles, old engines and learning the intricacies of classic car mechanics served as the base for this venture. </p>
+            <p>At Retro Rides, we believe that every classic car has a story to tell. Our dedicated team of expert mechanics and craftsmen work tirelessly to bring these stories to life, restoring each vehicle to its original glory with meticulous attention to detail and authenticity. Whether it's a barn find or a family heirloom, we treat every project with the utmost care and respect.</p>
+            <p>Our mission is to keep the legacy of classic cars alive for future generations to enjoy. We invite you to join us on this journey, whether you're a seasoned collector or a first-time buyer, and experience the magic of vintage automobiles.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Retro Rides. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
